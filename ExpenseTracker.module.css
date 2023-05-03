@@ -1,0 +1,95 @@
+.container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.title {
+    color: rgb(22, 182, 166);
+    text-align: center;
+    padding: 2rem;
+    font-size: 4rem;
+}
+
+.form {
+    width: 80%;
+
+}
+
+.formLabel {
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+.btn {
+    padding: 10px 30px;
+    width: 30%;
+    margin-left: 50%;
+    transform: translateX(-50%);
+    border-radius: 5px;
+    background-color: rgb(22, 182, 166);
+    border: none;
+    font-weight: bold;
+    font-size: 1.2rem;
+    color: white;
+    transition: all .4s ease-in-out;
+}
+
+.btn:hover {
+    background-color: rgb(234, 162, 182);
+
+}
+
+.select {
+    width: 80%;
+    margin-left: 50%;
+    transform: translateX(-50%);
+    height: 4rem;
+    padding: 15px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    border: 2px solid rgb(178, 175, 176);
+    border-radius: 5px;
+    font-size: 1.2rem;
+}
+
+.table {
+    width: 80%;
+    margin-left: 50%;
+    transform: translateX(-50%);
+    border: 2px solid rgb(151, 151, 151);
+    background-color: rgba(255, 255, 255, .4);
+    border-radius: 15px;
+    font-size: 1.4rem;
+    text-align: center;
+    
+}
+
+.tr{
+    border-bottom: 1px solid black;
+    background-color: rgba(22, 182, 166, .5);
+ 
+}
+
+.deleteBtn{
+    border: none;
+    color: rgb(227, 86, 136);
+    text-decoration: none;
+    background-color: transparent;
+    font-size: 1rem;
+    border-radius: 5px;
+    padding: 2px 5px;
+}
+
+.deleteBtn:hover{
+    background-color: rgb(228, 92, 192);
+    color: white;
+}
+
+.tfoot{
+    font-weight: bold;
+    background-color: rgba(235, 136, 196, 0.2);
+}
